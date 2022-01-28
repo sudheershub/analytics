@@ -1,17 +1,17 @@
-package org.sudheershub.analytics.util.date;
+package org.sudheershub.analytics.date;
 
-public class SimpleDate {
+public class DateKey {
 	
 	private final int day;
 	private final int month;
 	private final int year;
 	
-	public static SimpleDate fromStringDDsMMsYYYY(String dateString) {
+	public static DateKey fromStringDDsMMsYYYY(String dateString) {
 		String[] split = dateString.split("/");
-		return new SimpleDate(Integer.parseInt(split[0]), Integer.parseInt(split[1]), Integer.parseInt(split[2]));
+		return new DateKey(Integer.parseInt(split[0]), Integer.parseInt(split[1]), Integer.parseInt(split[2]));
 	}
 	
-	private SimpleDate(int day, int month, int year) {
+	private DateKey(int day, int month, int year) {
 		this.day = day;
 		this.month = month;
 		this.year = year;
