@@ -14,8 +14,7 @@ public class ApplicationMain {
 		try {
 			log.info("starting application ...");
 			SpringApplication.run(ApplicationMain.class, args);
-			Thread.sleep(360000);
-			log.info("exiting");
+			log.info("running");
 		} catch (Throwable th) {
 			th.printStackTrace();
 		}

@@ -47,5 +47,6 @@
   <modules>
     <module>analytics-core</module>
     <module>spring-rest</module>
+    <module>spring-react</module>
   </modules>
 </project>
