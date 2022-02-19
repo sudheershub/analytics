@@ -1,6 +1,6 @@
 /**
  * 
- */
+*/
  'use strict';
 
 // tag::vars[]
@@ -18,7 +18,7 @@ class App extends React.Component { // <1>
 	}
 
 	componentDidMount() { // <2>
-		client({method: 'GET', path: 'employee'}).done(response => {
+		client({method: 'GET', path: '/api/employees'}).done(response => {
 			this.setState({employees: response.entity._embedded.employees});
 		});
 	}
@@ -73,3 +73,4 @@ ReactDOM.render(
 	document.getElementById('react')
 )
 // end::render[]
+ 

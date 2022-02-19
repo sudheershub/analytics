@@ -16,7 +16,7 @@ public class EmployeeController {
 		this.employeeRepository = employeeRepository;
 	}
 	
-	@RequestMapping(value = "/employee", method = RequestMethod.GET)
+	@RequestMapping(value = "/employees", method = RequestMethod.GET)
 	public List<Employee> getAll() {
 		return employeeRepository.findAll();
 	}
