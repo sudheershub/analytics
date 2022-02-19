@@ -1,0 +1,7 @@
+/target/
+/node_modules/
+/.classpath
+/package-lock.json
+/.project
+/.settings/
+/src/main/resources/static/built/

@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.sudheershub.spring-react</groupId>
-	<artifactId>spring-rest-react</artifactId>
+	<artifactId>spring-react</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>React.js and Spring Data REST</name>
@@ -60,8 +60,6 @@
 							</goals>
 						</execution>
 
-						<!-- <execution> <id>npm run build</id> <goals> <goal>npm</goal> </goals> 
-							<configuration> <arguments>run build</arguments> </configuration> </execution> -->
 					</executions>
 				</plugin>
 			</plugins>
@@ -70,6 +68,6 @@
 	</build>
 
 	<modules>
-		<module>basic-react</module>
+		<module>spring-react-basic</module>
 	</modules>
 </project>
