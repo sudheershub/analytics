@@ -69,5 +69,6 @@
 
 	<modules>
 		<module>spring-react-basic</module>
+		<module>spring-react-hypermedia</module>
 	</modules>
 </project>
