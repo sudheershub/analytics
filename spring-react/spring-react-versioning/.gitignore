@@ -1,0 +1,8 @@
+/target/
+/node_modules/
+/.classpath
+/package-lock.json
+/.project
+/.settings/
+/.DS_Store
+/src/main/resources/static/built/
