@@ -71,5 +71,6 @@
 		<module>spring-react-basic</module>
 		<module>spring-react-hypermedia</module>
 		<module>spring-react-versioning</module>
+		<module>spring-react-events</module>
 	</modules>
 </project>
