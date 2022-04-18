@@ -72,5 +72,6 @@
 		<module>spring-react-hypermedia</module>
 		<module>spring-react-versioning</module>
 		<module>spring-react-events</module>
+		<module>spring-react-security</module>
 	</modules>
 </project>
